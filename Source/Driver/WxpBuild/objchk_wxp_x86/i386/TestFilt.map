@@ -1,0 +1,274 @@
+ TestFilt
+
+ Timestamp is 5180dbde (Wed May 01 11:09:50 2013)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00003478H .text                   CODE
+ 0001:00003480 00001184H .text$s                 CODE
+ 0002:00000000 00000084H .idata$5                DATA
+ 0002:00000090 0000052aH .rdata                  DATA
+ 0002:000005bc 0000007aH .rdata$debug            DATA
+ 0003:00000000 000000e8H .data                   DATA
+ 0003:000000e8 00000008H .bss                    DATA
+ 0004:00000000 0000004eH INIT                    CODE
+ 0004:00000050 00000028H .idata$2                CODE
+ 0004:00000078 00000014H .idata$3                CODE
+ 0004:0000008c 00000084H .idata$4                CODE
+ 0004:00000110 00000270H .idata$6                CODE
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000010       _DriverEntry@8             00010490 f   drvmain.obj
+ 0001:000004c0       _InitializeListHead@4      00010940 f i drvmain.obj
+ 0001:000004e0       _InsertTailList@8          00010960 f i drvmain.obj
+ 0001:00000520       _KeInitializeSpinLock@4    000109a0 f i drvmain.obj
+ 0001:00000810       _RtlUnicodeStringPrintf    00010c90 f i drvmain.obj
+ 0001:00000ba0       _IsListEmpty@4             00011020 f i drvmain.obj
+ 0001:00000bc0       _RemoveHeadList@4          00011040 f i drvmain.obj
+ 0001:00001010       _IoGetNextIrpStackLocation@4 00011490 f i drvmain.obj
+ 0001:000011f0       _IoGetCurrentIrpStackLocation@4 00011670 f i drvmain.obj
+ 0001:000012f0       _IoSetCompletionRoutine@24 00011770 f i drvmain.obj
+ 0001:000013d0       _IoCopyCurrentIrpStackLocationToNext@4 00011850 f i drvmain.obj
+ 0001:000014f0       _IoSkipCurrentIrpStackLocation@4 00011970 f i drvmain.obj
+ 0001:00001be0       _IoMarkIrpPending@4        00012060 f i drvmain.obj
+ 0001:00002410       _RemoveEntryList@4         00012890 f i drvmain.obj
+ 0001:00002aa0       _RtlStringCbCopyA@12       00012f20 f i drvmain.obj
+ 0001:00002b00       _RtlStringCbPrintfA        00012f80 f i drvmain.obj
+ 0001:00002d70       ?CBAllocateBlock@@YGJPAU_CIRCULAR_BUFFER@@K@Z 000131f0 f   circbuffer.obj
+ 0001:00002e80       ?CBDataBufferEmpty@@YGEPAU_CIRCULAR_BUFFER@@@Z 00013300 f   circbuffer.obj
+ 0001:00002ea0       ?CBFreeOldestDataBlock@@YGXPAU_CIRCULAR_BUFFER@@@Z 00013320 f   circbuffer.obj
+ 0001:00002f80       ?CBInitBufferCtlVar@@YGXPAU_CIRCULAR_BUFFER@@PAXK@Z 00013400 f   circbuffer.obj
+ 0001:00003030       ?CBMovePtrForward@@YGJPAU_CIRCULAR_BUFFER@@PAPADK@Z 000134b0 f   circbuffer.obj
+ 0001:000030b0       ?CBStore@@YGJPAU_CIRCULAR_BUFFER@@PAPADPAK22@Z 00013530 f   circbuffer.obj
+ 0001:00003260       ?CBXtractFromStart@@YGJPAU_CIRCULAR_BUFFER@@PAKPAPAD111@Z 000136e0 f   circbuffer.obj
+ 0001:00003431       @__security_check_cookie@4 000138b1 f   BufferOverflowK:secchk.obj
+ 0001:00003446       ___report_gsfailure        000138c6 f   BufferOverflowK:gs_report.obj
+ 0001:00003472       _memcpy                    000138f2 f   ntoskrnl:ntoskrnl.exe
+ 0001:00003480       ??_C@_0DM@IFCHACPO@FLT?5?9?5DriverEntry?5?9?5Test?5filter?5@FNODOBFM@ 00013900     drvmain.obj
+ 0001:000034c0       ??_C@_0DL@ENFACENM@?6?6FLT?5?9?5DriverEntry?5?9?5Test?5filte@FNODOBFM@ 00013940     drvmain.obj
+ 0001:00003500       ??_C@_0M@DJNHNKNB@May?5?51?52013?$AA@FNODOBFM@ 00013980     drvmain.obj
+ 0001:00003510       ??_C@_08HPPDJDFG@11?309?349?$AA@FNODOBFM@ 00013990     drvmain.obj
+ 0001:00003520       ??_C@_0DF@CEGKGNGA@FLT?5?9?5AddDevice?5?9?5failed?$DL?5return@FNODOBFM@ 000139a0     drvmain.obj
+ 0001:00003560       ??_C@_0ED@PAJPNGE@FLT?5?9?5AddDevice?5?9?5Filter?5access?5@FNODOBFM@ 000139e0     drvmain.obj
+ 0001:000035b0       ??_C@_0EK@HBPFAIIB@FLT?5?9?5AddDevice?5?9?5Failed?5to?5crea@FNODOBFM@ 00013a30     drvmain.obj
+ 0001:00003600       ??_C@_1BG@BNCJKNLL@?$AAF?$AAi?$AAl?$AAt?$AAA?$AAc?$AAc?$AAe?$AAs?$AAs?$AA?$AA@FNODOBFM@ 00013a80     drvmain.obj
+ 0001:00003620       ??_C@_0DG@MKCCCIDK@FLT?5?9?5AddDevice?5?9?5Failed?5to?5allo@FNODOBFM@ 00013aa0     drvmain.obj
+ 0001:00003660       ??_C@_0GI@HKPAOEPB@FLT?5?9?5AddDevice?5?9?5Attached?5filte@FNODOBFM@ 00013ae0     drvmain.obj
+ 0001:000036d0       ??_C@_0DJ@MNLFKKDM@FLT?5?9?5AddDevice?5?9?5Failed?5to?5atta@FNODOBFM@ 00013b50     drvmain.obj
+ 0001:00003710       ??_C@_0ED@EDCCOAPN@FLT?5?9?5AddDevice?5?9?5Failed?5to?5crea@FNODOBFM@ 00013b90     drvmain.obj
+ 0001:00003760       ??_C@_1BG@DCLHEFJL@?$AAT?$AAe?$AAs?$AAt?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AA@FNODOBFM@ 00013be0     drvmain.obj
+ 0001:00003780       ??_C@_0CL@NAJACAOE@FLT?5?9?5AddDevice?5?9?5Entering?0?5pTar@FNODOBFM@ 00013c00     drvmain.obj
+ 0001:000037b0       ??_C@_0DG@KJMBDFMO@FLT?5?9?5CreateDevice?5?9?5Failed?4?5Ret@FNODOBFM@ 00013c30     drvmain.obj
+ 0001:000037f0       ??_C@_0EH@MBIPFAHB@FLT?5?9?5CreateDevice?5?9?5IoCreateSym@FNODOBFM@ 00013c70     drvmain.obj
+ 0001:00003840       ??_C@_0EC@EDKPLCPO@FLT?5?9?5CreateDevice?5?9?5?5IoCreateDe@FNODOBFM@ 00013cc0     drvmain.obj
+ 0001:00003890       ??_C@_1O@PAJNNBDG@?$AA?2?$AA?$DP?$AA?$DP?$AA?2?$AA?$CF?$AAs?$AA?$AA@FNODOBFM@ 00013d10     drvmain.obj
+ 0001:000038a0       ??_C@_1BC@MDHMAKOA@?$AA?2?$AA?$DP?$AA?$DP?$AA?2?$AA?$CF?$AAs?$AA?$CF?$AAd?$AA?$AA@FNODOBFM@ 00013d20     drvmain.obj
+ 0001:000038c0       ??_C@_1BG@EDLFNGEH@?$AA?2?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?2?$AA?$CF?$AAs?$AA?$AA@FNODOBFM@ 00013d40     drvmain.obj
+ 0001:000038e0       ??_C@_1BK@BKIFJHAA@?$AA?2?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?2?$AA?$CF?$AAs?$AA?$CF?$AAd?$AA?$AA@FNODOBFM@ 00013d60     drvmain.obj
+ 0001:00003900       ??_C@_0EI@HJAINLCB@FLT?5?9?5Master?5device?5created?4?5Dev@FNODOBFM@ 00013d80     drvmain.obj
+ 0001:00003950       ??_C@_0CL@JPBGFCLD@FLT?5?9?5Failed?5to?5create?5the?5maste@FNODOBFM@ 00013dd0     drvmain.obj
+ 0001:00003980       ??_C@_1CG@DPMCLGJD@?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AAM?$AAa?$AAs?$AAt?$AAe?$AAr?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?$AA@FNODOBFM@ 00013e00     drvmain.obj
+ 0001:000039b0       ??_C@_0DG@FLIENFEL@FLT?5?9?5DpcCltIrpCompletion?5?9?5Clie@FNODOBFM@ 00013e30     drvmain.obj
+ 0001:000039f0       ??_C@_0DO@BAPDNIJJ@FLT?5?9?5GetTargDevInfo?5?9?5Filter?3?5?$CF@FNODOBFM@ 00013e70     drvmain.obj
+ 0001:00003a30       ??_C@_0BJ@HKMILGM@Irp?9?$DOCurrentLocation?5?$DO?50?$AA@FNODOBFM@ 00013eb0     drvmain.obj
+ 0001:00003a50       ??_C@_0CJ@NOBCDHO@c?3?2apps?2pw7hp?2devpgm?2msddk?2inc?2d@FNODOBFM@ 00013ed0     drvmain.obj
+ 0001:00003a80       ??_C@_0CM@LOONDNKF@Irp?9?$DOCurrentLocation?5?$DM?$DN?5Irp?9?$DOSta@FNODOBFM@ 00013f00     drvmain.obj
+ 0001:00003ab0       ??_C@_0CA@HIAJLNEM@?7offset?5?$DN?5?$CF?$CDI64x?6?7length?5?$DN?5?$CF?$CDx?6?$AA@FNODOBFM@ 00013f30     drvmain.obj
+ 0001:00003ad0       ??_C@_0BF@DHECNBIC@DispatchFilteredRead?$AA@FNODOBFM@ 00013f50     drvmain.obj
+ 0001:00003af0       ??_C@_0FK@JAEDPCKJ@?$CIInvokeOnSuccess?5?$HM?$HM?5InvokeOnErro@FNODOBFM@ 00013f70     drvmain.obj
+ 0001:00003b50       ??_C@_0BE@LDBPDEFD@?7data?5length?5?$DN?5?$CF?$CDx?6?$AA@FNODOBFM@ 00013fd0     drvmain.obj
+ 0001:00003b70       ??_C@_0BG@EAJEGOIB@DispatchFilteredWrite?$AA@FNODOBFM@ 00013ff0     drvmain.obj
+ 0001:00003b90       ??_C@_0CI@HDMHMCGD@Irp?9?$DOCurrentLocation?5?$DM?$DN?5Irp?9?$DOSta@FNODOBFM@ 00014010     drvmain.obj
+ 0001:00003bc0       ??_C@_0EE@ODKHGKNO@FLT?5?9?5FAMainDispatch?5?9?5Client?5IR@FNODOBFM@ 00014040     drvmain.obj
+ 0001:00003c10       ??_C@_0DN@OOMCMHGN@FLT?5?9?5FADispatchRead?5?9?5Client?5IR@FNODOBFM@ 00014090     drvmain.obj
+ 0001:00003c50       ??_C@_0CM@CDEFGHPM@FLT?5?9?5FADispatchDioc?5?9?5IOCTL?5cod@FNODOBFM@ 000140d0     drvmain.obj
+ 0001:00003c80       ??_C@_0N@NLMLMCJE@GenericTrace?$AA@FNODOBFM@ 00014100     drvmain.obj
+ 0001:00003c90       ??_C@_0DL@GMEEJJEE@FLT?5?9?5GetWriteData?5?9?5Write?5data?5@FNODOBFM@ 00014110     drvmain.obj
+ 0001:00003cd0       ??_C@_0CF@GHKHGNKG@?7Status?5?$DN?5?$CF?$CD010x?6?7Information?5?$DN?5@FNODOBFM@ 00014150     drvmain.obj
+ 0001:00003d00       ??_C@_0N@IHJEBEEH@GTCompletion?$AA@FNODOBFM@ 00014180     drvmain.obj
+ 0001:00003d10       ??_C@_0EO@KNKPAAK@FLT?5?9?5InterceptIrpAndData?5?9?5Stor@FNODOBFM@ 00014190     drvmain.obj
+ 0001:00003d60       ??_C@_0FA@GIHNANGK@FLT?5?9?5InterceptIrpAndData?5?9?5Stor@FNODOBFM@ 000141e0     drvmain.obj
+ 0001:00003db0       ??_C@_0DN@KNINDNNC@FLT?5?9?5InterceptIrpAndData?5?9?5Stor@FNODOBFM@ 00014230     drvmain.obj
+ 0001:00003df0       ??_C@_0EK@OJJBHMCK@FLT?5?9?5InterceptIrpAndData?5?9?5Buff@FNODOBFM@ 00014270     drvmain.obj
+ 0001:00003e40       ??_C@_0EE@FCHCFMEI@FLT?5?9?5MAMainDispatch?5?9?5Client?5IR@FNODOBFM@ 000142c0     drvmain.obj
+ 0001:00003e90       ??_C@_0CL@KFEIBEJF@FLT?5?9?5MADispatchRead?5?9?5Entered?4?5@FNODOBFM@ 00014310     drvmain.obj
+ 0001:00003ec0       ??_C@_0GD@DEPIDMO@FLT?5?9?5CheckMAReadPArams?5?9?5Client@FNODOBFM@ 00014340     drvmain.obj
+ 0001:00003f30       ??_C@_0FG@NEABJAHD@FLT?5?9?5CheckMAReadPArams?5?9?5Client@FNODOBFM@ 000143b0     drvmain.obj
+ 0001:00003f90       ??_C@_0EF@BMIAKKGE@FLT?5?9?5GetRWIrpBuffer?5?9?5MmGetSyst@FNODOBFM@ 00014410     drvmain.obj
+ 0001:00003fe0       ??_C@_0CL@DMKAKDEG@FLT?5?9?5FACancel?5?9?5Client?5IRP?5?$CF?$CDp?5@FNODOBFM@ 00014460     drvmain.obj
+ 0001:00004010       ??_C@_0CE@KKGIALML@FLT?5?9?5FACancel?5?9?5Entering?0?5IRP?5?$CF@FNODOBFM@ 00014490     drvmain.obj
+ 0001:00004040       ??_C@_0P@HGOAEHOJ@ReadCompletion?$AA@FNODOBFM@ 000144c0     drvmain.obj
+ 0001:00004050       ??_C@_0DJ@OOGMKJA@FLT?5?9?5GetReadData?5?9?5Read?5data?5ad@FNODOBFM@ 000144d0     drvmain.obj
+ 0001:00004090       ??_C@_0DC@JPOPAAME@FLT?5?9?5SendIrpDataToClt?5?9?5Client?5@FNODOBFM@ 00014510     drvmain.obj
+ 0001:000040d0       ??_C@_0EB@GMMKCGII@FLT?5?9?5MoveIrpDataToCltIrp?5?9?5Pass@FNODOBFM@ 00014550     drvmain.obj
+ 0001:00004120       ??_C@_0EC@MMEJNLGB@FLT?5?9?5MoveIrpDataToCltIrp?5?9?5Clie@FNODOBFM@ 000145a0     drvmain.obj
+ 0001:00004170       ??_C@_0EH@FIHPDACL@FLT?5?9?5QueueCltIrpForCompletion?5?9@FNODOBFM@ 000145f0     drvmain.obj
+ 0001:000041c0       ??_C@_0IJ@HMLMAHPH@FLT?5?9?5?$CFs?5?9?5Tracing?5IRP?5?$CF?$CDp?6?7Majo@FNODOBFM@ 00014640     drvmain.obj
+ 0001:00004250       ??_C@_03JELKHEKI@?$CF?$CDx?$AA@FNODOBFM@ 000146d0     drvmain.obj
+ 0001:00004260       ??_C@_0CN@GKLFJEPI@CB?5?9?5CBAllocateBlock?5?9?5Bytes?5rem@FNODOBFM@ 000146e0     circbuffer.obj
+ 0001:00004290       ??_C@_0FJ@FNHANJDH@CB?5?9?5CBAllocateBlock?5?9?5Allocatin@FNODOBFM@ 00014710     circbuffer.obj
+ 0001:000042f0       ??_C@_0DG@LDFCLJFD@CB?5?9?5CBFreeOldestDataBlock?5?9?5Ava@FNODOBFM@ 00014770     circbuffer.obj
+ 0001:00004330       ??_C@_0FP@GOPFBPAP@CB?5?9?5CBFreeOldestDataBlock?5?9?5Dis@FNODOBFM@ 000147b0     circbuffer.obj
+ 0001:00004390       ??_C@_0DG@NHBGMIEE@CB?5?9?5CBFreeOldestDataBlock?5?9?5Ava@FNODOBFM@ 00014810     circbuffer.obj
+ 0001:000043d0       ??_C@_0BD@EPPMMNOE@?5?5?5?5size?3?5?5?5?5?5?$CF?$CDx?6?$AA@FNODOBFM@ 00014850     circbuffer.obj
+ 0001:000043f0       ??_C@_0BD@OONIOHJ@?5?5?5?5end?3?5?5?5?5?5?5?$CF?$CDp?6?$AA@FNODOBFM@ 00014870     circbuffer.obj
+ 0001:00004410       ??_C@_0BD@PFLOOKJ@?5?5?5?5start?3?5?5?5?5?$CF?$CDp?6?$AA@FNODOBFM@ 00014890     circbuffer.obj
+ 0001:00004430       ??_C@_0CO@PDHPHBOO@CB?5?9?5CBInitBufferCtlVar?5?9?5Buffer@FNODOBFM@ 000148b0     circbuffer.obj
+ 0001:00004460       ??_C@_0MI@BMMJCGO@CB?5?9?5CBStore?5?9?5Storing?4?6?5?5?5?5Curr@FNODOBFM@ 000148e0     circbuffer.obj
+ 0001:00004530       ??_C@_0NE@DJKLCAIL@CB?5?9?5CBXtractFromStart?5?9?5Xtracti@FNODOBFM@ 000149b0     circbuffer.obj
+ 0002:00000000       __imp_@KeReleaseInStackQueuedSpinLock@4 00014b00     hal:HAL.dll
+ 0002:00000004       __imp_@KeAcquireInStackQueuedSpinLock@8 00014b04     hal:HAL.dll
+ 0002:00000008       \177HAL_NULL_THUNK_DATA    00014b08     hal:HAL.dll
+ 0002:0000000c       __imp__IoDeleteDevice@4    00014b0c     ntoskrnl:ntoskrnl.exe
+ 0002:00000010       __imp__ExAllocatePoolWithTag@12 00014b10     ntoskrnl:ntoskrnl.exe
+ 0002:00000014       __imp__IoAttachDeviceToDeviceStack@8 00014b14     ntoskrnl:ntoskrnl.exe
+ 0002:00000018       __imp__KeInitializeDpc@12  00014b18     ntoskrnl:ntoskrnl.exe
+ 0002:0000001c       __imp__IoCreateSymbolicLink@8 00014b1c     ntoskrnl:ntoskrnl.exe
+ 0002:00000020       __imp__IoCreateDevice@28   00014b20     ntoskrnl:ntoskrnl.exe
+ 0002:00000024       __imp___vsnwprintf         00014b24     ntoskrnl:ntoskrnl.exe
+ 0002:00000028       __imp_@IofCompleteRequest@8 00014b28     ntoskrnl:ntoskrnl.exe
+ 0002:0000002c       __imp__IoFreeIrp@4         00014b2c     ntoskrnl:ntoskrnl.exe
+ 0002:00000030       __imp__IoReuseIrp@8        00014b30     ntoskrnl:ntoskrnl.exe
+ 0002:00000034       __imp__IoAllocateIrp@8     00014b34     ntoskrnl:ntoskrnl.exe
+ 0002:00000038       __imp__KeInitializeEvent@12 00014b38     ntoskrnl:ntoskrnl.exe
+ 0002:0000003c       __imp__RtlAssert@16        00014b3c     ntoskrnl:ntoskrnl.exe
+ 0002:00000040       __imp__ExFreePoolWithTag@8 00014b40     ntoskrnl:ntoskrnl.exe
+ 0002:00000044       __imp__PoCallDriver@8      00014b44     ntoskrnl:ntoskrnl.exe
+ 0002:00000048       __imp__PoStartNextPowerIrp@4 00014b48     ntoskrnl:ntoskrnl.exe
+ 0002:0000004c       __imp__MmMapLockedPagesSpecifyCache@24 00014b4c     ntoskrnl:ntoskrnl.exe
+ 0002:00000050       __imp__IoReleaseCancelSpinLock@4 00014b50     ntoskrnl:ntoskrnl.exe
+ 0002:00000054       __imp__KeInsertQueueDpc@12 00014b54     ntoskrnl:ntoskrnl.exe
+ 0002:00000058       __imp__KeWaitForSingleObject@20 00014b58     ntoskrnl:ntoskrnl.exe
+ 0002:0000005c       __imp__KeClearEvent@4      00014b5c     ntoskrnl:ntoskrnl.exe
+ 0002:00000060       __imp__KeSetEvent@12       00014b60     ntoskrnl:ntoskrnl.exe
+ 0002:00000064       __imp___vsnprintf          00014b64     ntoskrnl:ntoskrnl.exe
+ 0002:00000068       __imp__memcpy              00014b68     ntoskrnl:ntoskrnl.exe
+ 0002:0000006c       __imp__KeTickCount         00014b6c     ntoskrnl:ntoskrnl.exe
+ 0002:0000006c       _KeTickCount               00014b6c     ntoskrnl:ntoskrnl.exe
+ 0002:00000070       __imp__KeBugCheckEx@20     00014b70     ntoskrnl:ntoskrnl.exe
+ 0002:00000074       __imp__IoDetachDevice@4    00014b74     ntoskrnl:ntoskrnl.exe
+ 0002:00000078       __imp_@IofCallDriver@8     00014b78     ntoskrnl:ntoskrnl.exe
+ 0002:0000007c       __imp__DbgPrintEx          00014b7c     ntoskrnl:ntoskrnl.exe
+ 0002:00000080       \177ntoskrnl_NULL_THUNK_DATA 00014b80     ntoskrnl:ntoskrnl.exe
+ 0002:000000ac       ??_C@_0BD@NCBACJCG@IRP_MN_QUERY_POWER?$AA@ 00014bac     drvmain.obj
+ 0002:000000c0       ??_C@_0BB@MOFGLKAE@IRP_MN_SET_POWER?$AA@ 00014bc0     drvmain.obj
+ 0002:000000d4       ??_C@_0BG@HJCHODFP@IRP_MN_POWER_SEQUENCE?$AA@ 00014bd4     drvmain.obj
+ 0002:000000ec       ??_C@_0BB@KEEBPEDL@IRP_MN_WAIT_WAKE?$AA@ 00014bec     drvmain.obj
+ 0002:00000100       ??_C@_0BI@JJMGKCHF@IRP_MN_SURPRISE_REMOVAL?$AA@ 00014c00     drvmain.obj
+ 0002:00000118       ??_C@_0CB@EEGIBKLH@IRP_MN_DEVICE_USAGE_NOTIFICATION@ 00014c18     drvmain.obj
+ 0002:0000013c       ??_C@_0BN@FKLLPNEA@IRP_MN_QUERY_BUS_INFORMATION?$AA@ 00014c3c     drvmain.obj
+ 0002:0000015c       ??_C@_0BO@CLJGNPDL@IRP_MN_QUERY_PNP_DEVICE_STATE?$AA@ 00014c5c     drvmain.obj
+ 0002:0000017c       ??_C@_0BA@MPOLLMHD@IRP_MN_QUERY_ID?$AA@ 00014c7c     drvmain.obj
+ 0002:0000018c       ??_C@_0BA@JCIHPHAO@IRP_MN_SET_LOCK?$AA@ 00014c8c     drvmain.obj
+ 0002:0000019c       ??_C@_0N@KBDCJDGM@IRP_MN_EJECT?$AA@ 00014c9c     drvmain.obj
+ 0002:000001ac       ??_C@_0BE@MNGKLJHO@IRP_MN_WRITE_CONFIG?$AA@ 00014cac     drvmain.obj
+ 0002:000001c0       ??_C@_0BD@KCLCONNF@IRP_MN_READ_CONFIG?$AA@ 00014cc0     drvmain.obj
+ 0002:000001d4       ??_C@_07CIFAGBMG@unknown?$AA@ 00014cd4     drvmain.obj
+ 0002:000001dc       ??_C@_0CE@FFGNIHMK@IRP_MN_FILTER_RESOURCE_REQUIREME@ 00014cdc     drvmain.obj
+ 0002:00000200       ??_C@_0BJ@KBKMPMKH@IRP_MN_QUERY_DEVICE_TEXT?$AA@ 00014d00     drvmain.obj
+ 0002:0000021c       ??_C@_0CD@MPPOHAEF@IRP_MN_QUERY_RESOURCE_REQUIREMEN@ 00014d1c     drvmain.obj
+ 0002:00000240       ??_C@_0BH@BAILDNEP@IRP_MN_QUERY_RESOURCES?$AA@ 00014d40     drvmain.obj
+ 0002:00000258       ??_C@_0BK@FNPJPCCF@IRP_MN_QUERY_CAPABILITIES?$AA@ 00014d58     drvmain.obj
+ 0002:00000274       ??_C@_0BH@NJFMIPMO@IRP_MN_QUERY_INTERFACE?$AA@ 00014d74     drvmain.obj
+ 0002:0000028c       ??_C@_0BO@EDNJKJCF@IRP_MN_QUERY_DEVICE_RELATIONS?$AA@ 00014d8c     drvmain.obj
+ 0002:000002ac       ??_C@_0BK@IHBBLJPI@IRP_MN_CANCEL_STOP_DEVICE?$AA@ 00014dac     drvmain.obj
+ 0002:000002c8       ??_C@_0BJ@DBBODAKD@IRP_MN_QUERY_STOP_DEVICE?$AA@ 00014dc8     drvmain.obj
+ 0002:000002e4       ??_C@_0BD@OKOEKPNG@IRP_MN_STOP_DEVICE?$AA@ 00014de4     drvmain.obj
+ 0002:000002f8       ??_C@_0BM@NHOBKHFC@IRP_MN_CANCEL_REMOVE_DEVICE?$AA@ 00014df8     drvmain.obj
+ 0002:00000314       ??_C@_0BF@CIDCHGNK@IRP_MN_REMOVE_DEVICE?$AA@ 00014e14     drvmain.obj
+ 0002:0000032c       ??_C@_0BL@BKMKKOEG@IRP_MN_QUERY_REMOVE_DEVICE?$AA@ 00014e2c     drvmain.obj
+ 0002:00000348       ??_C@_0BE@LNOGIHJB@IRP_MN_START_DEVICE?$AA@ 00014e48     drvmain.obj
+ 0002:0000035c       ??_C@_0L@EACGAIIF@IRP_MJ_PNP?$AA@ 00014e5c     drvmain.obj
+ 0002:00000368       ??_C@_0BB@MFPKCKFI@IRP_MJ_SET_QUOTA?$AA@ 00014e68     drvmain.obj
+ 0002:0000037c       ??_C@_0BD@MDBGANBO@IRP_MJ_QUERY_QUOTA?$AA@ 00014e7c     drvmain.obj
+ 0002:00000390       ??_C@_0BF@HOMHCDN@IRP_MJ_DEVICE_CHANGE?$AA@ 00014e90     drvmain.obj
+ 0002:000003a8       ??_C@_0BG@JHIMGJML@IRP_MJ_SYSTEM_CONTROL?$AA@ 00014ea8     drvmain.obj
+ 0002:000003c0       ??_C@_0N@BGEEMFOO@IRP_MJ_POWER?$AA@ 00014ec0     drvmain.obj
+ 0002:000003d0       ??_C@_0BE@MPINJCAP@IRP_MJ_SET_SECURITY?$AA@ 00014ed0     drvmain.obj
+ 0002:000003e4       ??_C@_0BG@MIODHPEN@IRP_MJ_QUERY_SECURITY?$AA@ 00014ee4     drvmain.obj
+ 0002:000003fc       ??_C@_0BH@CKPKPKHL@IRP_MJ_CREATE_MAILSLOT?$AA@ 00014efc     drvmain.obj
+ 0002:00000414       ??_C@_0P@JJLCIODE@IRP_MJ_CLEANUP?$AA@ 00014f14     drvmain.obj
+ 0002:00000424       ??_C@_0BE@LODBBEFP@IRP_MJ_LOCK_CONTROL?$AA@ 00014f24     drvmain.obj
+ 0002:00000438       ??_C@_0BA@CDMDNOAC@IRP_MJ_SHUTDOWN?$AA@ 00014f38     drvmain.obj
+ 0002:00000448       ??_C@_0BP@ODEFGAEK@IRP_MJ_INTERNAL_DEVICE_CONTROL?$AA@ 00014f48     drvmain.obj
+ 0002:00000468       ??_C@_0BG@HAFCIBGJ@IRP_MJ_DEVICE_CONTROL?$AA@ 00014f68     drvmain.obj
+ 0002:00000480       ??_C@_0BL@MFHGBIDL@IRP_MJ_FILE_SYSTEM_CONTROL?$AA@ 00014f80     drvmain.obj
+ 0002:0000049c       ??_C@_0BJ@NCGIANAN@IRP_MJ_DIRECTORY_CONTROL?$AA@ 00014f9c     drvmain.obj
+ 0002:000004b8       ??_C@_0BO@CJJMMMF@IRP_MJ_SET_VOLUME_INFORMATION?$AA@ 00014fb8     drvmain.obj
+ 0002:000004d8       ??_C@_0CA@FDGJPBOD@IRP_MJ_QUERY_VOLUME_INFORMATION?$AA@ 00014fd8     drvmain.obj
+ 0002:000004f8       ??_C@_0BF@CBDAKCPM@IRP_MJ_FLUSH_BUFFERS?$AA@ 00014ff8     drvmain.obj
+ 0002:00000510       ??_C@_0O@FPNILENL@IRP_MJ_SET_EA?$AA@ 00015010     drvmain.obj
+ 0002:00000520       ??_C@_0BA@LFPMCNA@IRP_MJ_QUERY_EA?$AA@ 00015020     drvmain.obj
+ 0002:00000530       ??_C@_0BH@GNAPBNMO@IRP_MJ_SET_INFORMATION?$AA@ 00015030     drvmain.obj
+ 0002:00000548       ??_C@_0BJ@FPMLIFJJ@IRP_MJ_QUERY_INFORMATION?$AA@ 00015048     drvmain.obj
+ 0002:00000564       ??_C@_0N@DLJAMLBI@IRP_MJ_WRITE?$AA@ 00015064     drvmain.obj
+ 0002:00000574       ??_C@_0M@LJKCMGIA@IRP_MJ_READ?$AA@ 00015074     drvmain.obj
+ 0002:00000580       ??_C@_0N@FMCDOLCP@IRP_MJ_CLOSE?$AA@ 00015080     drvmain.obj
+ 0002:00000590       ??_C@_0BJ@MMKIHFHH@IRP_MJ_CREATE_NAMED_PIPE?$AA@ 00015090     drvmain.obj
+ 0002:000005ac       ??_C@_0O@LCBLIIOL@IRP_MJ_CREATE?$AA@ 000150ac     drvmain.obj
+ 0003:00000000       ?pszMajorFunctionV@@3PAPADA 00015180     drvmain.obj
+ 0003:00000070       ?pszPnpMinorFunctionV@@3PAPADA 000151f0     drvmain.obj
+ 0003:000000d0       ?pszPowerMinorFunctionV@@3PAPADA 00015250     drvmain.obj
+ 0003:000000e0       ___security_cookie         00015260     BufferOverflowK:gs_support.obj
+ 0003:000000e4       ___security_cookie_complement 00015264     BufferOverflowK:gs_support.obj
+ 0004:00000005       ___security_init_cookie    00015285 f   BufferOverflowK:gs_support.obj
+ 0004:0000003e       _GsDriverEntry@8           000152be f   BufferOverflowK:gs_support.obj
+ 0004:00000050       __IMPORT_DESCRIPTOR_ntoskrnl 000152d0     ntoskrnl:ntoskrnl.exe
+ 0004:00000064       __IMPORT_DESCRIPTOR_HAL    000152e4     hal:HAL.dll
+ 0004:00000078       __NULL_IMPORT_DESCRIPTOR   000152f8     ntoskrnl:ntoskrnl.exe
+
+ entry point at        0004:0000003e
+
+ Static symbols
+
+ 0001:000000b0       ?AddDevice@@YGJPAU_DRIVER_OBJECT@@PAU_DEVICE_OBJECT@@@Z 00010530 f   drvmain.obj
+ 0001:00000540       ?CopyWString@@YGXPAG0K@Z   000109c0 f   drvmain.obj
+ 0001:000005a0       ?CreateDevice@@YGJPAU_DRIVER_OBJECT@@PAGKPAPAU_DEVICE_OBJECT@@J1@Z 00010a20 f   drvmain.obj
+ 0001:00000890       _RtlUnicodeStringValidateDestWorker@24 00010d10 f   drvmain.obj
+ 0001:00000920       _RtlUnicodeStringValidateWorker@12 00010da0 f   drvmain.obj
+ 0001:000009d0       _RtlWideCharArrayVPrintfWorker@20 00010e50 f   drvmain.obj
+ 0001:00000a30       ?CreateMainDevice@@YGJPAU_DRIVER_OBJECT@@@Z 00010eb0 f   drvmain.obj
+ 0001:00000b00       ?DpcCltIrpCompletion@@YGXPAU_KDPC@@PAX11@Z 00010f80 f   drvmain.obj
+ 0001:00000c00       ?GetTargDevInfo@@YGJPAU_FADEVICE_EXTENSION@@@Z 00011080 f   drvmain.obj
+ 0001:00001060       ?CopyMultiWString@@YGXPAG0K@Z 000114e0 f   drvmain.obj
+ 0001:000010f0       ?MainDispatch@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00011570 f   drvmain.obj
+ 0001:00001180       ?FltMainDispatch@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00011600 f   drvmain.obj
+ 0001:00001250       ?DispatchFilteredRead@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 000116d0 f   drvmain.obj
+ 0001:00001420       ?DispatchFilteredWrite@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 000118a0 f   drvmain.obj
+ 0001:00001560       ?FAMainDispatch@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 000119e0 f   drvmain.obj
+ 0001:000016a0       ?FADispatchRead@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00011b20 f   drvmain.obj
+ 0001:00001740       ?CheckFAReadParams@@YGJPAU_IRP@@@Z 00011bc0 f   drvmain.obj
+ 0001:000017a0       ?FADispatchIoctl@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00011c20 f   drvmain.obj
+ 0001:00001860       ?GenericTrace@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00011ce0 f   drvmain.obj
+ 0001:00001950       ?ForwardIrpOrPIrp@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00011dd0 f   drvmain.obj
+ 0001:000019b0       ?ForwardPIrpToNext@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00011e30 f   drvmain.obj
+ 0001:00001a00       ?ForwardToNext@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00011e80 f   drvmain.obj
+ 0001:00001a40       ?GetWriteData@@YGXPAU_IRP@@PAU_DEVICE_EXTENSION@@PAPAXPAK@Z 00011ec0 f   drvmain.obj
+ 0001:00001b20       ?GTCompletion@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z 00011fa0 f   drvmain.obj
+ 0001:00001c10       ?InterceptIrpAndData@@YGXPAU_IRP@@PAXKPAU_DEVICE_EXTENSION@@@Z 00012090 f   drvmain.obj
+ 0001:00001da0       ?IoctlGetMJFFlags@@YGJPAU_IRP@@PAU_DEVICE_EXTENSION@@@Z 00012220 f   drvmain.obj
+ 0001:00001e40       ?IoctlSetMJFFlags@@YGJPAU_IRP@@PAU_DEVICE_EXTENSION@@@Z 000122c0 f   drvmain.obj
+ 0001:00001f20       ?MAMainDispatch@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 000123a0 f   drvmain.obj
+ 0001:00002040       ?MADispatchRead@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 000124c0 f   drvmain.obj
+ 0001:00002180       ?CheckMAReadParams@@YGJPAU_IRP@@PAU_DEVICE_OBJECT@@PAPAU_IO_STACK_LOCATION@@PAPAU_ACCESS_DEVICES_LIST@@@Z 00012600 f   drvmain.obj
+ 0001:00002230       ?GetRWIrpBuffer@@YGJPAU_IRP@@PAU_DEVICE_OBJECT@@PAPAX@Z 000126b0 f   drvmain.obj
+ 0001:000022e0       ?QueueCltIrp@@YGJPAU_DEVICE_EXTENSION@@PAU_IRP@@@Z 00012760 f   drvmain.obj
+ 0001:00002320       ?FACancel@@YGXPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 000127a0 f   drvmain.obj
+ 0001:00002450       ?ReadCompletion@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z 000128d0 f   drvmain.obj
+ 0001:00002510       ?GetReadData@@YGXPAU_IRP@@PAU_DEVICE_EXTENSION@@PAPAXPAK@Z 00012990 f   drvmain.obj
+ 0001:000025f0       ?SendIrpDataToClt@@YGXPAU_DEVICE_EXTENSION@@@Z 00012a70 f   drvmain.obj
+ 0001:00002680       ?MoveIrpDataToCltIrp@@YGXPAU_DEVICE_EXTENSION@@PAU_IRP@@@Z 00012b00 f   drvmain.obj
+ 0001:00002820       ?QueueCltIrpForCompletion@@YGXPAU_DEVICE_EXTENSION@@PAU_IRP@@@Z 00012ca0 f   drvmain.obj
+ 0001:00002870       ?SendIrpSync@@YGJPAU_IRP@@PAU_KEVENT@@@Z 00012cf0 f   drvmain.obj
+ 0001:000028f0       ?SendIrpSyncCompletion@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@PAX@Z 00012d70 f   drvmain.obj
+ 0001:00002920       ?TraceIrpBasicInfo@@YGXPAU_DEVICE_EXTENSION@@PADPAU_IRP@@@Z 00012da0 f   drvmain.obj
+ 0001:00002a10       ?MajorFunctionDes@@YGPADEPADK@Z 00012e90 f   drvmain.obj
+ 0001:00002a40       ?DecodeEnum@@YGPADHHQAPADHPADK@Z 00012ec0 f   drvmain.obj
+ 0001:00002b60       _RtlStringValidateDestA@12 00012fe0 f   drvmain.obj
+ 0001:00002b90       _RtlStringCopyWorkerA@20   00013010 f   drvmain.obj
+ 0001:00002c40       _RtlStringVPrintfWorkerA@20 000130c0 f   drvmain.obj
+ 0001:00002cf0       ?MinorFunctionDes@@YGPADEEPADK@Z 00013170 f   drvmain.obj

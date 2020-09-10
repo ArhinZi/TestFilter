@@ -1,0 +1,31 @@
+###
+### wxp x86 version
+
+TARGETNAME=TestFilt
+TARGETTYPE=DRIVER
+NTDEBUGTYPE=both
+USE_PDB=1
+
+LINKER_FLAGS=/MAP
+C_DEFINES= /DDRV_COMPIL
+
+# DRV_COMPIL: used into header for both win32 and kernel mode modules.
+# If defined triggers #if statements aimed at the device driver.
+#
+
+USER_C_FLAGS= /FAs
+
+# Add these options to produce a listing with the pre-processor output: 
+#
+#	/P /C
+
+
+# Input stuff
+# -----------
+
+SOURCES=..\DrvMain.cpp ..\CircBuffer.cpp
+
+# Output
+# ------
+
+TARGETPATH=obj

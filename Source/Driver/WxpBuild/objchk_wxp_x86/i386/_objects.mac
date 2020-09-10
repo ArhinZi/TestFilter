@@ -1,0 +1,17 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\drvmain.obj \
+ $(OBJ_PATH)\$O\circbuffer.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\apps\pw7hp\devpgm\msddk
+OBJECT_ROOT=c:\apps\pw7hp\devpgm\msddk
+MAKEDIR_LOWERCASE=b:\programm\wntsys\testfilter\release\1_1\source\driver\wxpbuild
+OBJ_PATH=b:\programm\wntsys\testfilter\release\1_1\source\driver\wxpbuild
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0
